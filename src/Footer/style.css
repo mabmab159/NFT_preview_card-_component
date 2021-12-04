@@ -1,0 +1,28 @@
+.footer {
+  display: block;
+}
+
+.contenedor-footer {
+  display: flex;
+  align-items: center;
+}
+
+.contenedor-footer img {
+  width: 35px;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+p {
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+}
+
+span {
+  color: hsl(0, 0%, 100%);
+}
+
+span:hover {
+  color: hsl(178, 100%, 50%);
+}

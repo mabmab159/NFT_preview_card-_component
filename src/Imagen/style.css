@@ -1,0 +1,28 @@
+.contenedor {
+  width: 280px;
+  height: 280px;
+  background-image: url("../assets/image-equilibrium.jpg");
+  background-size: cover;
+  display: flex;
+  border-radius: 10px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.fondo {
+  position: absolute;
+  width: 280px;
+  height: 280px;
+  border-radius: 10px;
+}
+
+.fondo:hover {
+  background-color: hsl(178, 100%, 50%);
+  opacity: 0.5;
+  width: 280px;
+  height: 280px;
+}
+
+.img {
+  position: absolute;
+}

@@ -1,0 +1,50 @@
+.informacion {
+  width: 100%;
+  max-width: 280px;
+  display: block;
+}
+
+h2 {
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+}
+
+h2:hover {
+  color: hsl(178, 100%, 50%);
+  font-weight: 600;
+}
+
+p {
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+}
+
+.adicional {
+  display: flex;
+  justify-content: space-between;
+}
+
+.adicional span {
+  color: hsl(215, 51%, 70%);
+  display: flex;
+  align-items: center;
+}
+
+.adicional span img {
+  margin-right: 5px;
+}
+
+.adicional .precio {
+  color: hsl(178, 100%, 50%);
+}
+.adicional .dias {
+  font-weight: 300;
+}
+
+.separador {
+  height: 1px;
+  width: 280px;
+  background-color: hsl(215, 32%, 27%);
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
